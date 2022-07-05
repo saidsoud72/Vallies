@@ -1,4 +1,164 @@
-h1 {
-    background-color: red;
-    font-size: large;
+.frontlayout{
+    width: 105%;
+    height: 100px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subfrontlayout{
+    height: 110px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.AAA{
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+.aaa{
+    width: 45%;
+}
+button{
+    color: white;
+    background-color: blue;
+    height:50px;
+    border-radius: 5px;
+    width: 100px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: Space Grotesk, Oleo Script ;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+} 
+a:active{
+    color: blue;
+} 
+.sectionA p:first-child{
+    font-size: 60px;
+    margin-left: 110px;
+    color: blue;
+}
+.sectionA p:nth-child(2){
+    font-size: 30px;
+    margin-left: 110px;
+
+}
+.sectionA button{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 110px;
+    background-color: blue; 
+    color: white;
+}
+.ccc img{
+    height: 400px;
+    width: 90%;
+} 
+.mask3{
+    display: flex;
+    width: 80%;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+    box-shadow: 3px 3px 1px gray;
+    border: 1px solid gray;
+}
+.a{
+    font-size: 20px;
+    font-weight: 200;
+}
+.mask4 h1:nth-child(2){
+    text-align: center;
+
+}
+
+.mask4 p{
+    text-align: center;
+
+}
+
+.mask5{
+    display: flex;
+    justify-content: center;
+
+}
+.mask5 img{
+    height: 200px;
+
+}
+.mask5 div{
+    border: 1px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+
+}
+.mask4 h1:first-child {
+    margin-left: 110px;
+}
+.mask5 div:nth-child(2){
+    border: 1px solid white;
+    box-shadow: 3px 3px 3px grey;
+}
+.b{
+    font-size: 30px;
+}
+.images{
+    display: flex;
+    align-items: center;
+}
+.last{
+    background-color: blue;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction:row;
+    width: 100%;
+}
+.mask6{
+    display: flex;
+}
+.mask6 img{
+    height: 300px;
+    margin-top: 30px;
+}
+.im img{
+    width:30% ;
+}
+.im{
+    display: flex;    
+}
+.houseimage{
+    width: 80%;
+    text-align: center;
+}
+.app{
+    display: flex;
+    justify-content: space-around;
+}
+.app div{
+    width: 30%;
+}
+.mainapp{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    text-align: center;
+}
+.btnRight{
+    float: right;
 }
