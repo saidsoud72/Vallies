@@ -1,6 +1,6 @@
 # Vallies
 Vallies project
-# {Application Name}
+# {Vallies Estates}
 #### {(https://saidsoud72.github.io/Vallies/)}, {30th July 2022}
 #### By **{List of contributors}**
 ## Description
